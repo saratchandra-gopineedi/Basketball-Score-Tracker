@@ -1,0 +1,43 @@
+body {
+    background-color: #1B244A;
+}
+
+.team-names {
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: #EEEEEE;
+    font-size: large;
+}
+
+.team-scores {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+#home-score, #guest-score {
+    font-size: 100px;
+    font-weight: 400;
+    color: #F94F6D;
+    background-color: #080001;
+    padding: 24px 64px;
+    margin: 0px 0px;
+}
+
+.score-btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    margin: 30px 4px;
+    padding: 12px 12px;
+    border: 2px solid #9AABD8;
+    border-radius: 6px;
+    background-color: #1B244A;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 25px;
+    color: #9AABD8;
+}
